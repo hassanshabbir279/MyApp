@@ -1,0 +1,54 @@
+body{
+  background-color: black;
+  overflow: -moz-hidden-unscrollable;
+}
+h1{
+  text-align: center;
+  color: #fff;
+}
+input{
+  outline: none;
+}
+.input_container{
+  display: flex;
+  justify-content: center;
+}
+.items_container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 32.4rem;
+}
+ul{
+  background-color: #fff;
+  color: black;
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+}
+li{
+  padding-top: 0.1rem;
+}
+.btn_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+#rem-all{
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#particular_dlt{
+  background: none;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+}
